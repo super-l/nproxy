@@ -1,0 +1,11 @@
+.idea
+*.log
+logs/
+data/logs
+data/sql.db
+*.db
+*.zip
+*.exe
+release
+build
+*.lock

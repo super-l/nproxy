@@ -1,0 +1,21 @@
+system:
+  logLevel: debug       # 日志等级
+
+proxy:
+  apiRate: 10          # 代理API接口的更新频率
+
+db:
+  type: sqlite
+  mysql:
+    host: 192.168.1.100
+    port: 3306
+    username: mstool
+    password: nepenthes
+    database: mstool
+  sqlite:
+    dbpath: data/sql.db
+
+rpc:
+  ip: 127.0.0.1         # 服务器IP地址，如果需要远程访问，则改为外网IP，并开启对应的防火墙端口例外
+  port: 55555           # WEB后台端口
+  password: tGzv3JOkF0XG5Qx2TlKWIA
